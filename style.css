@@ -1,0 +1,98 @@
+html,
+body {
+  padding: 0%;
+  margin: 0%;
+  background-color: black;
+  margin-bottom: 0%;
+}
+.content {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  grid-template-rows: 1fr;
+  width: auto;
+  margin-bottom: 0%;
+  padding: 0%;
+}
+.slidbar {
+  background-color: #1992d4;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  height: 100%;
+}
+.header {
+  background-color: white;
+}
+.main {
+  background-color: #e2e8f0;
+}
+.sub {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1.8fr 9fr;
+  height: 0%;
+  margin: 0%;
+  padding: 0%;
+}
+.main {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+}
+.projects {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+.sub2 {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 0px;
+  margin: 0%;
+}
+.data {
+  text-align: start;
+  margin-left: 25%;
+}
+.top {
+  display: flex;
+  justify-content: space-around;
+}
+.bottom {
+  display: flex;
+  justify-content: space-around;
+}
+.bottom .left {
+  display: flex;
+}
+.bottom .right {
+  display: flex;
+}
+.projects {
+  background-color: #e2e8f0;
+  margin: 5%;
+  height: 0%;
+}
+.project {
+  background-color: #ffffff;
+  padding: 0%;
+  box-shadow: -10px 0 0px 0px gold;
+  text-align: center;
+  height: 150px;
+}
+.annoucements {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 3fr;
+  background-color: #ffffff;
+}
+.Annoucement {
+  background-color: #ffffff;
+  text-align: center;
+}
+.Annoucements {
+  background-color: #ffffff;
+  margin: 1%;
+  border-radius: 10px;
+  font-size: 10px;
+}
